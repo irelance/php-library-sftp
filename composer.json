@@ -1,0 +1,17 @@
+{
+    "name": "irelance/php-library-sftp",
+    "type": "library",
+    "description": "",
+    "authors": [
+        {
+            "name": "Irelance",
+            "email": "heirelance@163.com"
+        }
+    ],
+    "require":{},
+    "autoload":{
+        "psr-4":{
+            "Irelance\\Library\\":"src/"
+        }
+    }
+}
