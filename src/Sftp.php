@@ -130,9 +130,6 @@ class Sftp
     public function openStream($remote, $mode)
     {
         $remote = $this->makeRemoteUri($remote);
-        if (!is_file($remote)) {
-            return false;
-        }
         return @fopen($remote, $mode);
     }
 
